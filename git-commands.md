@@ -8,3 +8,12 @@ git push
 
 ## Commandes pour pull
 git pull
+
+## Commandes pour les branches
+Lister les branches locales : git branch
+Créer une nouvelle branche : git branch <nom_de_la_branche>
+Créer et basculer immédiatement vers une nouvelle branche : git switch -c <nom_de_la_branche>
+Changer de branche : git switch <nom_de_la_branche> (ou git checkout <nom_de_la_branche>)
+Fusionner une branche dans la branche actuelle : git merge <nom_de_la_branche>
+Supprimer une branche (fusionnée) : git branch -d <nom_de_la_branche>
+Forcer la suppression d'une branche (non fusionnée) : git branch -D <nom_de_la_branche>
